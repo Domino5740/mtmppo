@@ -1,9 +1,11 @@
-#include "stepper.h"
 #include "led.h"
+#include "ledinv.h"
+#include "stepper.h"
 
 void Stepper::SetLed(Led *pLed) {
 	pMyLed = pLed;
 }
+
 void Stepper::Step(enum Stepper::Step eStep) {
 	if(eStep == LEFT){
 		ucLedCtr--;

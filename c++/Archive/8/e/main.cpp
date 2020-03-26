@@ -1,4 +1,5 @@
 #include "led.h"
+#include "ledinv.h"
 #include "stepper.h"
 #include "keyboard.h"
 #include <LPC213X.H>
@@ -23,7 +24,9 @@ int main(void)
 	else {
 		LedPointer = &My_Led;
 	}
+	 
 	My_Stepper.SetLed(LedPointer);
+	
 	while(1) {
 		Delay(500);
 		switch (My_Keyboard.eRead()) {
