@@ -1,0 +1,21 @@
+Dependencies for Project 'cpp', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x51C7FF5E)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\led.cpp)(0x5E7C8126)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\led.o --omf_browse .\led.crf --depend .\led.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C7FF8C)
+I (C:\Users\Rejmi\Documents\STUDIA\S4\ppo\mtmppo\c++\Project\led.h)(0x5E7C7D00)
+F (.\main.cpp)(0x5E7C7D9F)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Users\Rejmi\Documents\STUDIA\S4\ppo\mtmppo\c++\Project\led.h)(0x5E7C7D00)
+I (C:\Users\Rejmi\Documents\STUDIA\S4\ppo\mtmppo\c++\Project\stepper.h)(0x5E7B9047)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7FD94)
+I (C:\Users\Rejmi\Documents\STUDIA\S4\ppo\mtmppo\c++\Project\keyboard.h)(0x5E7C7350)
+I (C:\Keil\ARM\Inc\Philips\LPC213X.H)(0x51C7FF8C)
+F (.\led.h)(0x5E7C7D00)()
+F (.\stepper.cpp)(0x5E7C7B7D)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\stepper.o --omf_browse .\stepper.crf --depend .\stepper.d)
+I (C:\Users\Rejmi\Documents\STUDIA\S4\ppo\mtmppo\c++\Project\stepper.h)(0x5E7B9047)
+I (C:\Users\Rejmi\Documents\STUDIA\S4\ppo\mtmppo\c++\Project\led.h)(0x5E7C7D00)
+F (.\keyboard.cpp)(0x5E7C7355)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\keyboard.o --omf_browse .\keyboard.crf --depend .\keyboard.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C7FF8C)
+I (C:\Users\Rejmi\Documents\STUDIA\S4\ppo\mtmppo\c++\Project\keyboard.h)(0x5E7C7350)
+F (.\keyboard.h)(0x5E7C7350)()
+F (.\ledinv.cpp)(0x5E7C812B)()
+F (.\ledinv.h)(0x5E7C7ED0)()
