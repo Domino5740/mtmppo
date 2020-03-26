@@ -1,6 +1,5 @@
 #include <LPC213X.H>
 #include "stepper.h"
-#include "led.h"
 
 void Stepper::SetMode(unsigned char ucInvert) {
 	Stepper::ucInversion = ucInvert;

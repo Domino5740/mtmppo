@@ -10,6 +10,6 @@ class Keyboard {
 		BUTTON_3,
 		BUTTON_4
 		};
-		eState eRead(void);
+		enum eState eRead(void);
 };
 #endif

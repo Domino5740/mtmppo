@@ -1,6 +1,4 @@
-#include "led.h"
 #include "stepper.h"
-#include <stdio.h>
 #include "keyboard.h"
 #include <LPC213X.H>
 
@@ -14,12 +12,14 @@ int main(void)
 {
 	Keyboard My_Keyboard;
 	Stepper My_Stepper;
+
 	if(My_Keyboard.eRead() == Keyboard::BUTTON_4) {
 		My_Stepper.SetMode(1);
 	}
 	else {
 		My_Stepper.SetMode(0);
 	}
+	
 	while(1) {
 		Delay(500);
 		switch (My_Keyboard.eRead()) {

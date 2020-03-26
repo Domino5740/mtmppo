@@ -1,0 +1,11 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\led.o"
+".\main.o"
+".\stepper.o"
+".\keyboard.o"
+".\ledinv.o"
+--strict --scatter ".\cpp.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\cpp.map" -o .\cpp.axf
